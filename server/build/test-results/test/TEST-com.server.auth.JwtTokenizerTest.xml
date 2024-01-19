@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.server.auth.JwtTokenizerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-01-19T05:44:09" hostname="DESKTOP-NIKJHOF" time="1.895">
+  <properties/>
+  <testcase name="encodeBase64SecretKeyTest()" classname="com.server.auth.JwtTokenizerTest" time="0.017"/>
+  <testcase name="generateAccessTokenTest()" classname="com.server.auth.JwtTokenizerTest" time="0.284"/>
+  <testcase name="does not throw any Exception when jws verify" classname="com.server.auth.JwtTokenizerTest" time="0.065"/>
+  <testcase name="generateRefreshTokenTest()" classname="com.server.auth.JwtTokenizerTest" time="0.002"/>
+  <testcase name="throw ExpiredJwtException when jws verify" classname="com.server.auth.JwtTokenizerTest" time="1.522"/>
+  <system-out><![CDATA[a2V2aW4xMjM0MTIzNDEyMzQxMjM0MTIzNDEyMzQxMjM0
+eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJVU0VSIl0sIm1lbWJlcklkIjoxLCJzdWIiOiJ0ZXN0IGFjY2VzcyB0b2tlbiIsImlhdCI6MTcwNTY0MzA0OSwiZXhwIjoxNzA1NjQzNjQ5fQ.ewodS3wLqjd5HgSRqXBWdDPzfWtSIJtmeO1ulc-x9Hc
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IHJlZnJlc2ggdG9rZW4iLCJpYXQiOjE3MDU2NDMwNDksImV4cCI6MTcwNTcyOTQ0OX0.gerLZ_qT5yWS2qpwQI3DfTUnrTcPekT1BpXuuT2ZBIQ
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
